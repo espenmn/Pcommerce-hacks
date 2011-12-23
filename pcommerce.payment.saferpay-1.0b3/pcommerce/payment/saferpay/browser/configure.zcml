@@ -1,0 +1,54 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="plone">
+
+  <browser:view
+      for="..interfaces.ISaferpayPayment"
+      class=".payment.SaferpayPayment"
+      name="payment"
+      permission="pcommerce.CheckOut"
+      provides="pcommerce.core.interfaces.IPaymentView"
+      />
+      
+  <browser:view
+      for="..interfaces.ISaferpayPayment"
+      class=".overview.SaferpayOverview"
+      name="overview"
+      permission="pcommerce.CheckOut"
+      provides="pcommerce.core.interfaces.IPaymentView"
+      />
+      
+  <browser:view
+      for="..interfaces.ISaferpayPayment"
+      class=".confirmation.SaferpayConfirmation"
+      name="confirmation"
+      permission="pcommerce.CheckOut"
+      provides="pcommerce.core.interfaces.IPaymentView"
+      />
+      
+  <browser:page
+      for="Products.CMFCore.interfaces.ISiteRoot"
+      class=".process.ProcessSaferpay"
+      name="processSaferpay"
+      permission="zope2.View"
+      />
+
+  <browser:page
+      for="Products.CMFCore.interfaces.ISiteRoot"
+      name="saferpay_configlet"
+      class=".configlet.Configlet"
+      permission="cmf.ManagePortal"
+      />
+
+  <browser:resource
+      name="pcommerce_payment_saferpay_icon.gif"
+      image="icon.gif"
+      />
+
+  <browser:resource
+      name="pcommerce_payment_saferpay_logo.gif"
+      image="logo.gif"
+      />
+
+</configure>

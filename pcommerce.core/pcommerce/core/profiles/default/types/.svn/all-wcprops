@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/collective/!svn/ver/244614/pcommerce.core/trunk/pcommerce/core/profiles/default/types
+END
+Product.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/collective/!svn/ver/244614/pcommerce.core/trunk/pcommerce/core/profiles/default/types/Product.xml
+END
+Price.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/profiles/default/types/Price.xml
+END
+Folder.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/profiles/default/types/Folder.xml
+END
+Variation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/collective/!svn/ver/244614/pcommerce.core/trunk/pcommerce/core/profiles/default/types/Variation.xml
+END

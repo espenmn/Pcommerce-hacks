@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/collective/!svn/ver/122254/pcommerce.core/trunk/pcommerce/core/browser/viewlets
+END
+new.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/viewlets/new.py
+END
+hot.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/viewlets/hot.py
+END
+buy.pt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/collective/!svn/ver/122254/pcommerce.core/trunk/pcommerce/core/browser/viewlets/buy.pt
+END
+info.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/viewlets/info.py
+END
+variation.py
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/viewlets/variation.py
+END
+configure.zcml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/viewlets/configure.zcml
+END
+buy.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/viewlets/buy.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/viewlets/__init__.py
+END
+related.pt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/viewlets/related.pt
+END
+processor.py
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/viewlets/processor.py
+END
+related.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/viewlets/related.py
+END
+new.pt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/viewlets/new.pt
+END
+hot.pt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/viewlets/hot.pt
+END
+info.pt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/viewlets/info.pt
+END
+variation.pt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/viewlets/variation.pt
+END

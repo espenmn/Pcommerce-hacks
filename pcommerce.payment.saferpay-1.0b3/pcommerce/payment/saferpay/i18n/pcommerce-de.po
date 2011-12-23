@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pcommerce.payment.saferpay\n"
+"POT-Creation-Date: 2010-03-11 11:32+0000\n"
+"PO-Revision-Date: 2010-03-11 11:32+0000\n"
+"Last-Translator: Simon Kaeser <skaeser@raptus.com>\n"
+"Language-Team: Deutsch <skaeser@raptus.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-code: de\n"
+"Language-name: Deutsch\n"
+"Preferred-encodings: utf-8 latin1\n"
+"Domain: pcommerce\n"
+"X-is-fallback-for: de-ch de-de de-at de-li de-lu\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Default: "Payment processed over Saferpay"
+#: ./browser/confirmation.pt:1
+msgid "Payment processed over Saferpay"
+msgstr "Zahlung wurde durch Saferpay abgewickelt"
+
+#: ./plugin.py:19
+msgid "Payment using Saferpay"
+msgstr "Zahlung über Saferpay"
+
+#. Default: "Payment will be processed over Saferpay"
+#: ./browser/overview.pt:1
+msgid "Payment will be processed over Saferpay"
+msgstr "Zahlung wird durch Saferpay abgewickelt"
+
+#: ./plugin.py:18
+msgid "Saferpay"
+msgstr "Saferpay"
+
+#. Default: "Saferpay configuration"
+#: ./profiles/default/actionicons.xml
+#: ./profiles/default/controlpanel.xml
+msgid "Saferpay configuration"
+msgstr "Einstellungen Saferpay"
+
+#. Default: "Payment processed over Saferpay"
+#: ./plugin.py:33
+msgid "saferpay_mailinfo"
+msgstr "Zahlung wurde durch Saferpay abgewickelt"
+

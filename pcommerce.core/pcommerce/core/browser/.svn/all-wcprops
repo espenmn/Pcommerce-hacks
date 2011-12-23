@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/collective/!svn/ver/245820/pcommerce.core/trunk/pcommerce/core/browser
+END
+cart.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/cart.py
+END
+variation.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/variation.py
+END
+getprice.pt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/collective/!svn/ver/144650/pcommerce.core/trunk/pcommerce/core/browser/getprice.pt
+END
+configure.zcml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/collective/!svn/ver/245439/pcommerce.core/trunk/pcommerce/core/browser/configure.zcml
+END
+orders.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/collective/!svn/ver/244771/pcommerce.core/trunk/pcommerce/core/browser/orders.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/__init__.py
+END
+checkout.pt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/collective/!svn/ver/144650/pcommerce.core/trunk/pcommerce/core/browser/checkout.pt
+END
+images.pt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/collective/!svn/ver/144650/pcommerce.core/trunk/pcommerce/core/browser/images.pt
+END
+manage_orders.pt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/collective/!svn/ver/244054/pcommerce.core/trunk/pcommerce/core/browser/manage_orders.pt
+END
+getprice.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/getprice.py
+END
+configlet.pt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/collective/!svn/ver/144650/pcommerce.core/trunk/pcommerce/core/browser/configlet.pt
+END
+checkout.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/collective/!svn/ver/245820/pcommerce.core/trunk/pcommerce/core/browser/checkout.py
+END
+images.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/images.py
+END
+folder.pt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/collective/!svn/ver/144650/pcommerce.core/trunk/pcommerce/core/browser/folder.pt
+END
+configlet.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/configlet.py
+END
+variations.pt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/variations.pt
+END
+order_details.pt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/collective/!svn/ver/244054/pcommerce.core/trunk/pcommerce/core/browser/order_details.pt
+END
+product.pt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/collective/!svn/ver/144650/pcommerce.core/trunk/pcommerce/core/browser/product.pt
+END
+folder.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/folder.py
+END
+macros.pt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/collective/!svn/ver/245439/pcommerce.core/trunk/pcommerce/core/browser/macros.pt
+END
+variations.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/variations.py
+END
+product.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/product.py
+END
+prices.pt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/collective/!svn/ver/144650/pcommerce.core/trunk/pcommerce/core/browser/prices.pt
+END
+address.pt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/collective/!svn/ver/144650/pcommerce.core/trunk/pcommerce/core/browser/address.pt
+END
+cart.pt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/collective/!svn/ver/237351/pcommerce.core/trunk/pcommerce/core/browser/cart.pt
+END
+prices.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/prices.py
+END
+getprice.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/collective/!svn/ver/227769/pcommerce.core/trunk/pcommerce/core/browser/getprice.js
+END
+variation.pt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/collective/!svn/ver/144650/pcommerce.core/trunk/pcommerce/core/browser/variation.pt
+END

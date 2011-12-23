@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/collective/!svn/ver/229327/pcommerce.core/trunk/pcommerce/core/browser/components
+END
+confirmation.py
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/collective/!svn/ver/125553/pcommerce.core/trunk/pcommerce/core/browser/components/confirmation.py
+END
+payments.pt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/collective/!svn/ver/229327/pcommerce.core/trunk/pcommerce/core/browser/components/payments.pt
+END
+configure.zcml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/collective/!svn/ver/125553/pcommerce.core/trunk/pcommerce/core/browser/components/configure.zcml
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/components/__init__.py
+END
+payments.py
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/collective/!svn/ver/125553/pcommerce.core/trunk/pcommerce/core/browser/components/payments.py
+END
+overview.pt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/collective/!svn/ver/229327/pcommerce.core/trunk/pcommerce/core/browser/components/overview.pt
+END
+shipments.pt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/collective/!svn/ver/229327/pcommerce.core/trunk/pcommerce/core/browser/components/shipments.pt
+END
+overview.py
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/collective/!svn/ver/125553/pcommerce.core/trunk/pcommerce/core/browser/components/overview.py
+END
+payment.pt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/collective/!svn/ver/229327/pcommerce.core/trunk/pcommerce/core/browser/components/payment.pt
+END
+gtc.pt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/collective/!svn/ver/229327/pcommerce.core/trunk/pcommerce/core/browser/components/gtc.pt
+END
+base.py
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/collective/!svn/ver/229169/pcommerce.core/trunk/pcommerce/core/browser/components/base.py
+END
+shipments.py
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/collective/!svn/ver/125553/pcommerce.core/trunk/pcommerce/core/browser/components/shipments.py
+END
+payment.py
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/collective/!svn/ver/125553/pcommerce.core/trunk/pcommerce/core/browser/components/payment.py
+END
+gtc.py
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/collective/!svn/ver/125553/pcommerce.core/trunk/pcommerce/core/browser/components/gtc.py
+END
+address.pt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/collective/!svn/ver/229327/pcommerce.core/trunk/pcommerce/core/browser/components/address.pt
+END
+shipment.pt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/collective/!svn/ver/229327/pcommerce.core/trunk/pcommerce/core/browser/components/shipment.pt
+END
+confirmation.pt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/collective/!svn/ver/144650/pcommerce.core/trunk/pcommerce/core/browser/components/confirmation.pt
+END
+address.py
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/collective/!svn/ver/125553/pcommerce.core/trunk/pcommerce/core/browser/components/address.py
+END
+shipment.py
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/collective/!svn/ver/125553/pcommerce.core/trunk/pcommerce/core/browser/components/shipment.py
+END

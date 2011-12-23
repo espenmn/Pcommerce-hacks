@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/collective/!svn/ver/144650/pcommerce.core/trunk/pcommerce/core/browser/portlets
+END
+cart.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/portlets/cart.py
+END
+configure.zcml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/portlets/configure.zcml
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/browser/portlets/__init__.py
+END
+cart.pt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/collective/!svn/ver/144650/pcommerce.core/trunk/pcommerce/core/browser/portlets/cart.pt
+END

@@ -1,0 +1,190 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="pcommerce">
+
+    <include package="Products.CMFCore" file="permissions.zcml"
+             xmlns:zcml="http://namespaces.zope.org/zcml"
+             zcml:condition="have plone-41" />
+
+    <include package=".components" />
+    <include package=".portlets" />
+    <include package=".viewlets" />
+
+    <browser:page
+        for="*"
+        name="ShopFolder"
+        class=".folder.ShopFolderListing"
+        permission="zope2.View"
+    />
+
+    <browser:page
+        for="*"
+        name="Shop"
+        class=".folder.ShopHome"
+        permission="zope2.View"
+    />
+
+    <browser:page
+        for="..interfaces.IProduct"
+        name="getprice"
+        class=".getprice.GetPrcie"
+        permission="zope2.View"
+    />
+
+    <browser:page
+        for="..interfaces.IProduct"
+        name="view"
+        class=".product.Product"
+        permission="zope2.View"
+    />
+
+    <browser:page
+        for="..interfaces.IProduct"
+        class=".variations.Variations"
+        name="folder_contents"
+        template="variations.pt"
+        permission="cmf.ListFolderContents"
+    />
+
+    <browser:page
+        for="..interfaces.IProduct"
+        class=".images.Images"
+        name="images"
+        template="images.pt"
+        permission="cmf.ListFolderContents"
+    />
+
+    <browser:page
+        for="..interfaces.IProduct"
+        class=".prices.Prices"
+        name="prices"
+        template="prices.pt"
+        permission="cmf.ListFolderContents"
+    />
+
+    <browser:page
+        for="..interfaces.IVariation"
+        name="view"
+        class=".variation.Variation"
+        permission="zope2.View"
+    />
+
+    <browser:page
+        for="..interfaces.IVariation"
+        name="prices"
+        class=".prices.Prices"
+        permission="cmf.ListFolderContents"
+    />
+
+    <browser:page
+        for="Products.CMFCore.interfaces.ISiteRoot"
+        name="cart"
+        class=".cart.Cart"
+        permission="pcommerce.AddToCart"
+    />
+
+    <browser:page
+        for="Products.CMFCore.interfaces.ISiteRoot"
+        name="checkout"
+        class=".checkout.Checkout"
+        permission="pcommerce.CheckOut"
+    />
+
+    <browser:page
+        for="Products.CMFCore.interfaces.ISiteRoot"
+        name="checkout.cancel"
+        class=".checkout.CheckoutCancel"
+        permission="pcommerce.CheckOut"
+    />
+
+    <browser:page
+        for="Products.CMFCore.interfaces.ISiteRoot"
+        name="checkout.failed"
+        class=".checkout.CheckoutFailed"
+        permission="pcommerce.CheckOut"
+    />
+
+    <browser:page
+        for="Products.CMFCore.interfaces.ISiteRoot"
+        name="payment.failed"
+        class=".checkout.PaymentFailed"
+        permission="pcommerce.CheckOut"
+    />
+
+    <browser:page
+        for="Products.CMFCore.interfaces.ISiteRoot"
+        name="payment.cancel"
+        class=".checkout.PaymentCancel"
+        permission="pcommerce.CheckOut"
+    />
+
+    <browser:page
+        for="Products.CMFCore.interfaces.ISiteRoot"
+        name="payment.success"
+        class=".checkout.PaymentSuccess"
+        permission="pcommerce.CheckOut"
+    />
+
+    <browser:page
+        for="Products.CMFCore.interfaces.ISiteRoot"
+        name="pcommerce_configlet"
+        class=".configlet.PCommerceConfiglet"
+        permission="cmf.ManagePortal"
+    />
+
+    <browser:page
+        name="pcommerce_macros"
+        for="*"
+        template="macros.pt"
+        permission="zope2.View"
+    />
+
+    <browser:page
+        name="pcommerce_address"
+        for="*"
+        template="address.pt"
+        permission="zope2.View"
+    />
+
+    <browser:page
+        for="Products.CMFCore.interfaces.ISiteRoot"
+        name="manage-orders"
+        class=".orders.ManageOrders"
+        permission="pcommerce.ManageOrders"
+    />
+
+    <browser:page
+        for="Products.CMFCore.interfaces.ISiteRoot"
+        name="order-details"
+        class=".orders.OrderDetails"
+        permission="pcommerce.ManageOrders"
+    />
+
+    <browser:resource
+        name="product_icon.gif"
+        image="images/product_icon.gif"
+    />
+
+    <browser:resource
+        name="variation_icon.gif"
+        image="images/variation_icon.gif"
+    />
+
+    <browser:resource
+        name="price_icon.gif"
+        image="images/price_icon.gif"
+    />
+
+    <browser:resource
+        name="as_customer.js"
+        file="javascripts/as_customer.js"
+    />
+
+    <browser:resource
+        name="getprice.js"
+        file="getprice.js"
+    />
+
+</configure>

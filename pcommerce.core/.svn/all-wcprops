@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/collective/!svn/ver/245820/pcommerce.core/trunk
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/collective/!svn/ver/244161/pcommerce.core/trunk/setup.py
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/collective/!svn/ver/122248/pcommerce.core/trunk/README.txt
+END
+setup.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/setup.cfg
+END

@@ -1,0 +1,278 @@
+Metadata-Version: 1.0
+Name: pcommerce.core
+Version: 1.0b9
+Summary: eCommerce for Plone
+Home-page: http://raptus.com
+Author: Raptus AG
+Author-email: dev@raptus.com
+License: GPL
+Description: Introduction
+        ============
+        
+        PCommerce (Plone commerce) provides a simple shop system which supports:
+        
+        * product variations
+        * multiple prices per product to support special prices per user or group
+          (over the sharing tab) and prices only available for a specific time
+          (by using the expiration date)
+        * multiple pluggable payment methods
+        * multiple pluggable shipment methods
+        * multiple taxes by zone
+        * pre and post tax charges per payment and shipment method
+        * component based checkout to easily customize the checkout process
+        * multiple currencies by using Products.CurrencyUtility
+        
+        
+        Pluggable Payment Methods
+        -------------------------
+        
+        A payment plugin consists of a named adapter implementing
+        pcommerce.core.interfaces.IPaymentMethod and named by the id (usually
+        the package name) of the method and one or more views injecting data
+        into the checkout process. The views are registered for the payment
+        method and have to implement pcommerce.core.interfaces.IPaymentView.
+        The name of the view corresponds to the name of the component where
+        the data has to be injected (e.g. payment, confirmation, overview etc.).
+        
+        As an example of a simple payment plugin pcommerce.payment.invoice is
+        available, which simply collects a billing address and injects it into
+        the confirmation and order email.
+        
+        
+        Pluggable Shipment Methods
+        --------------------------
+        
+        A shipment plugin works much like a payment plugin, the only differences
+        are the interfaces to be implemented by the adapter and the corresponding
+        views, which there are pcommerce.core.interfaces.IShipmentMethod respectively
+        pcommerce.core.interfaces.IShipmentView.
+        
+        As an example pcommerce.shipment.parcel is available, which collects a delivery
+        address and injects it into the confirmation and order email.
+        
+        
+        Optional dependencies
+        ---------------------
+        
+        Products.CurrencyUtility - to add support for multiple currencies
+        
+        ImageTag_CorePatch - to add support for dynamic image scaling
+        [http://www.zope.org/Members/bowerymarc/ImageTag_CorePatch/0.3/ImageTag_CorePatch.tgz]
+        
+        Usage
+        =====
+        
+        Getting started
+        ---------------
+        
+        * Install pcommerce.shipment.X and pcommerce.payment.Y
+        
+        * Via the control panel, go to PCommerce settings and modify:
+        
+          - Set taxes
+        
+          - Set "Terms and conditions"-page (required)
+        
+          - Set "Thank you"-page (optional, see below)
+        
+        * Add a folder, name it "My Webshop" (or something like that)
+        
+        * Add a product, give it a price
+        
+        * Set the folder's containing view to "ShopFolder"
+        
+        
+        Detailed setup
+        --------------
+        
+        Thank you-page
+        ~~~~~~~~~~~~~~
+        
+        The thank you-page may be left empty, in that case customers will be redirected
+        to the root of the site after checkout.
+        
+        Folder view: "Shop"
+        ~~~~~~~~~~~~~~~~~~~
+        
+        The "Shop" folder view shows "hot" and / or "new" products, if present.
+        
+        Folder view: "ShopFolder"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+        
+        The "ShopFolder" view lists all products in the folder. Probably, this is what
+        you want for a simple shop.
+        
+        Additional price
+        ~~~~~~~~~~~~~~~~
+        
+        An additional price can be added to a product. you can specify a period where it
+        is valid (Plone's dates). If the additional price X is lower than the default
+        price Y, it will display as "$ X (instead of $ Y)".
+        
+        Order management
+        ----------------
+        
+        There's a management screen where you can see all orders and their statuses.
+        The link to the Order Management is available under the user actions, or you
+        can type `@@manage-orders` directly.
+        
+        The view is protected by the "PCommerce: Manage Orders" permissions.
+        
+        To do
+        =====
+        
+        
+        Customers
+        ---------
+        
+        Membership integration
+        ~~~~~~~~~~~~~~~~~~~~~~
+        
+        Integrate order form with site membership, or don't require membership?
+        
+        The payment process should be easier for customers, now lots of duplicate 
+        data have to be filled in.
+        
+        Product filtering
+        ~~~~~~~~~~~~~~~~~
+        
+        Filter on product properties to narrow down products (ajax?)
+        
+        
+        Vendor
+        ------
+        
+        Order management
+        ~~~~~~~~~~~~~~~~
+        
+        * batching
+        
+        * filtering (on status, for example)
+        
+        * Integrate processing here? The current way is rather flimsy: vendor clicks a
+          link from an email which takes him to the processOrder page, which redirects
+          to a blank page displaying only "order processed".
+        
+          - First step: processing should redirect to `@@manage-orders`, with a status
+            message.
+        
+        
+        General
+        -------
+        
+        * Layout: currently has own CSS looking like Plone 3. Try styling by adding
+          only classes, so we use Plone's own styling (should work in both 3 and 4). 
+        * Translations: replace bare strings with labels and defaults
+        
+        Changelog
+        =========
+        
+        1.0b9 (2011-12-13)
+        ------------------
+        * updated translations
+        * added french translations
+        * fixed bug in payment failed and canceled view where a ValueError was raised if order.processed_steps was empty
+        * adjusted CSS for the checkout button of the cart view
+        * rounding values (by default to 5 cents) is now configurable in the
+         pcommerce_properties (not in the configlet) [huub_bouma]
+        * plone4.1 compatability fix (small) [huub_bouma]
+        * translations now use locales folder, and is now plone4 compatible
+        * removed a pdb statement. [huub_bouma]
+        * some PEP8 fixes [huub_bouma]
+        
+        1.0b8 (2011-09-26)
+        ------------------
+        
+        * Improved order overview (adjusted total price to include all taxes and charges)
+        * Added default_view property to Product and Variation type to prevent breaking of plone's new folder_full_view
+        * Added spanish translations (Thanks to Manuel Gualda Caballero)
+        
+        1.0b7 (2011-09-01)
+        ------------------
+        
+        * Added dutch translations 
+          (thanks to Kees Hink and Albert Peschar)
+        * Added order overview (`@@manage-orders`)
+          [khink]
+        
+        1.0b6 (2011-01-5)
+        ------------------
+        
+        * re-add PTS utility for plone 3 compatibility
+        
+        1.0b5 (2010-12-22)
+        ------------------
+        
+        * cleaned up templates (unified xml namespaces)
+        * fixed css classes of step navigation in checkout
+        
+        1.0b4 (2010-12-20)
+        ------------------
+        
+        * bugfix in BaseComponent (only show available shipment methods by using the ShipmentRegistry)
+        * added process method to the order registry
+        * added new adapter which defines the components which have to be 
+          processed in order to make an order definite
+        * added new zope3 events
+        * cleaned up translations
+        
+        1.0b3 (2010-11-29)
+        ------------------
+        * remove assignment in portlets.xml
+        
+        1.0b2 (2010-11-29)
+        ------------------
+        * fix javascript getprice.js. 
+        
+        1.0b1 (2010-10-20)
+        ------------------
+        
+        plone 4 compatibility
+        
+        * remove PTS utility
+        * fix javascripts under query 1.4.2
+        * browser view need a index attribute instead the call method 
+        * remove actionsicons because is no more supported in plone 4
+        * fix access of user-order
+        
+        0.5a3
+        -----
+        
+        * CSS and HTML Bugfix in buy viewlet
+        
+        0.5a2
+        -----
+        
+        * Fixed payment and shipmentdata class and added migration method to fix existing orders
+        * Fixed cartInfo macro
+        
+        0.5a1
+        -----
+        
+        * Added pluggable shipment methods
+        * Added pre and post tax charges
+        * Added selection of available shipment methods per product
+        * Rewrote the whole architecture (Not backward compatible)
+        * First alpha release containing internal developments
+        
+        0.3 - Alpha release
+        -------------------
+        
+        * Removed setupHandler which rebuilded the catalog and slowed down (re)install
+        * Fixed version in metadata.xml
+        
+        0.2 - Alpha release
+        -------------------
+        
+        * Removed profile dependency to Products.CurrencyUtility
+        
+        0.1 - Alpha release
+        -------------------
+        
+        * Initial release
+        
+        
+Keywords: plone ecommerce shop
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

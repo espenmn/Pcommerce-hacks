@@ -1,0 +1,45 @@
+To do
+=====
+
+
+Customers
+---------
+
+Membership integration
+~~~~~~~~~~~~~~~~~~~~~~
+
+Integrate order form with site membership, or don't require membership?
+
+The payment process should be easier for customers, now lots of duplicate 
+data have to be filled in.
+
+Product filtering
+~~~~~~~~~~~~~~~~~
+
+Filter on product properties to narrow down products (ajax?)
+
+
+Vendor
+------
+
+Order management
+~~~~~~~~~~~~~~~~
+
+* batching
+
+* filtering (on status, for example)
+
+* Integrate processing here? The current way is rather flimsy: vendor clicks a
+  link from an email which takes him to the processOrder page, which redirects
+  to a blank page displaying only "order processed".
+
+  - First step: processing should redirect to `@@manage-orders`, with a status
+    message.
+
+
+General
+-------
+
+* Layout: currently has own CSS looking like Plone 3. Try styling by adding
+  only classes, so we use Plone's own styling (should work in both 3 and 4). 
+* Translations: replace bare strings with labels and defaults

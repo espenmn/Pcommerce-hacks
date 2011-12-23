@@ -1,0 +1,10 @@
+<div class="variation productList" tal:condition="view/variation_items">    
+  <h2 i18n:translate="" i18n:domain="pcommerce">
+      Product variations
+  </h2>
+  <div class="list clearfix">
+    <tal:product repeat="product view/variation_items">
+    <dl metal:use-macro="context/@@pcommerce_macros/productPortlet" />
+    </tal:product>
+  </div>
+</div>

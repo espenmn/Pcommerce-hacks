@@ -1,0 +1,52 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pcommerce.payment.invoice\n"
+"POT-Creation-Date: 2011-08-31 15:40+0000\n"
+"PO-Revision-Date: 2011-11-18 11:38+0100\n"
+"Last-Translator: Espen Moe-Nilssen <espen@medialog.no>\n"
+"Language-Team: Espen Moe-Nilssen <post@medialog.no>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: no\n"
+"Language-Name: Norwegian bokmål\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plone\n"
+"X-Poedit-Language: Norwegian Bokmal\n"
+"X-Poedit-Country: NORWAY\n"
+
+#: plugin.py:12
+msgid "Invoice"
+msgstr "Regning"
+
+#: plugin.py:13
+msgid "Payment on account"
+msgstr "Levering med regning"
+
+#. Default: "equal to customer address"
+#: browser/payment.pt:6
+msgid "equal to customer address"
+msgstr "lik kundeadressen."
+
+#. Default: "Billing address\n${address}\n\nTo process the invoice payment click the following link\n${link}\n\nTo cancel the invoice payment process and fail the order click the following link\n${link_failed}"
+#: plugin.py:27
+msgid "invoice_mailinfo"
+msgstr ""
+"Regningsadressen \n"
+"${address}\n"
+"\n"
+"For å fortsette, klikk her.\n"
+"${link}\n"
+"\n"
+"For å fortsette, klikk her.\n"
+"${link_failed}"
+
+#. Default: "Billing address\n${address}"
+#: plugin.py:24
+msgid "invoice_mailinfo_customer"
+msgstr ""
+"Regningsadresse\n"
+"${address}"
+

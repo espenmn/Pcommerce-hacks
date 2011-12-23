@@ -1,0 +1,30 @@
+Changelog
+=========
+
+1.0b4 (2011-12-13)
+------------------
+
+* updated translations
+* added french translations
+
+1.0b3 (2011-09-01)
+------------------
+
+* Added dutch translations 
+  (thanks to Albert Peschar)
+
+1.0b2 (2010-12-20)
+------------------
+
+* Added possibility for admin to fail a payment
+
+1.0b1 (2010-10-20)
+------------------
+
+* Plone 4 compatibility
+
+0.1a1
+-----
+
+* First public release
+

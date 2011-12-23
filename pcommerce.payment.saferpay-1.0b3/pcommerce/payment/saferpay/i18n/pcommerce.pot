@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pcommerce.payment.saferpay\n"
+"POT-Creation-Date: 2010-03-11 11:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: Simon Kaeser <skaeser@raptus.com>\n"
+"Language-Team: English <skaeser@raptus.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: pcommerce\n"
+
+#. Default: "Payment processed over Saferpay"
+#: ./browser/confirmation.pt:1
+msgid "Payment processed over Saferpay"
+msgstr ""
+
+#: ./plugin.py:19
+msgid "Payment using Saferpay"
+msgstr ""
+
+#. Default: "Payment will be processed over Saferpay"
+#: ./browser/overview.pt:1
+msgid "Payment will be processed over Saferpay"
+msgstr ""
+
+#: ./plugin.py:18
+msgid "Saferpay"
+msgstr ""
+
+#. Default: "Saferpay configuration"
+#: ./profiles/default/actionicons.xml
+#: ./profiles/default/controlpanel.xml
+msgid "Saferpay configuration"
+msgstr ""
+
+#. Default: "Payment processed over Saferpay"
+#: ./plugin.py:33
+msgid "saferpay_mailinfo"
+msgstr ""
+

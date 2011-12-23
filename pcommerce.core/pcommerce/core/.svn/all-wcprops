@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/collective/!svn/ver/245820/pcommerce.core/trunk/pcommerce/core
+END
+permissions.zcml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/permissions.zcml
+END
+charge.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/charge.py
+END
+cart.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/collective/!svn/ver/229170/pcommerce.core/trunk/pcommerce/core/cart.py
+END
+currency.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/collective/!svn/ver/245479/pcommerce.core/trunk/pcommerce/core/currency.py
+END
+configure.zcml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/collective/!svn/ver/245479/pcommerce.core/trunk/pcommerce/core/configure.zcml
+END
+steps.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/steps.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/collective/!svn/ver/229830/pcommerce.core/trunk/pcommerce/core/__init__.py
+END
+plone3.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/collective/!svn/ver/229830/pcommerce.core/trunk/pcommerce/core/plone3.py
+END
+adapters.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/adapters.py
+END
+events.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/collective/!svn/ver/229170/pcommerce.core/trunk/pcommerce/core/events.py
+END
+config.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/collective/!svn/ver/237511/pcommerce.core/trunk/pcommerce/core/config.py
+END
+vocabulary.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/vocabulary.py
+END
+registry.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/registry.py
+END
+data.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/collective/!svn/ver/122245/pcommerce.core/trunk/pcommerce/core/data.py
+END
+order.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/collective/!svn/ver/245439/pcommerce.core/trunk/pcommerce/core/order.py
+END
+processor.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/collective/!svn/ver/237543/pcommerce.core/trunk/pcommerce/core/processor.py
+END
+required.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/collective/!svn/ver/229170/pcommerce.core/trunk/pcommerce/core/required.py
+END
+setuphandlers.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/collective/!svn/ver/122245/pcommerce.core/trunk/pcommerce/core/setuphandlers.py
+END
+interfaces.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/collective/!svn/ver/229170/pcommerce.core/trunk/pcommerce/core/interfaces.py
+END
+address.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/collective/!svn/ver/244045/pcommerce.core/trunk/pcommerce/core/address.py
+END

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/collective/!svn/ver/245479/pcommerce.core/trunk/pcommerce/core/profiles/default
+END
+actions.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/collective/!svn/ver/237543/pcommerce.core/trunk/pcommerce/core/profiles/default/actions.xml
+END
+controlpanel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/collective/!svn/ver/125553/pcommerce.core/trunk/pcommerce/core/profiles/default/controlpanel.xml
+END
+metadata.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/collective/!svn/ver/244161/pcommerce.core/trunk/pcommerce/core/profiles/default/metadata.xml
+END
+cssregistry.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/profiles/default/cssregistry.xml
+END
+viewlets.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/profiles/default/viewlets.xml
+END
+types.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/profiles/default/types.xml
+END
+factorytool.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/profiles/default/factorytool.xml
+END
+jsregistry.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/profiles/default/jsregistry.xml
+END
+pcommerce.core_migrate05a105a2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/collective/!svn/ver/122245/pcommerce.core/trunk/pcommerce/core/profiles/default/pcommerce.core_migrate05a105a2.txt
+END
+skins.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/profiles/default/skins.xml
+END
+catalog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/profiles/default/catalog.xml
+END
+propertiestool.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/collective/!svn/ver/245479/pcommerce.core/trunk/pcommerce/core/profiles/default/propertiestool.xml
+END
+portlets.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/collective/!svn/ver/227784/pcommerce.core/trunk/pcommerce/core/profiles/default/portlets.xml
+END
+rolemap.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/profiles/default/rolemap.xml
+END

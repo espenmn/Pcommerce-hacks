@@ -1,0 +1,52 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-08-31 15:40+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: Albert Peschar <albert@lapisit.nl>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: nl\n"
+"Language-Name: Nederlands\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plone\n"
+
+msgid "Price"
+msgstr "Prijs"
+
+msgid "A price"
+msgstr "Een prijs"
+
+msgid "Product"
+msgstr "Artikel"
+
+msgid "A product"
+msgstr "Een artikel"
+
+msgid "Variation"
+msgstr "Variant"
+
+msgid "A variation of a product"
+msgstr "Een variant van een artikel"
+
+msgid "Variations"
+msgstr "Varianten"
+
+msgid "Prices"
+msgstr "Prijzen"
+
+msgid "PCommerce configuration"
+msgstr "PCommerce-instellingen"
+
+msgid "Shop"
+msgstr "Winkel"
+
+msgid "ShopFolder"
+msgstr "Winkel-Map"
+
+msgid "Images"
+msgstr "Afbeeldingen"

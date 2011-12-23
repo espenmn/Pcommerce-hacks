@@ -1,0 +1,319 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en" xml:lang="en"
+      metal:use-macro="here/prefs_main_template/macros/master"
+      i18n:domain="SaferPay">
+
+<body>
+
+  <div metal:fill-slot="prefs_configlet_main">
+
+        <h1 class="documentFirstHeading" i18n:translate="">
+            Saferpay configuration
+        </h1>
+
+        <a href=""
+           class="link-parent"
+           tal:attributes="href string: $portal_url/plone_control_panel"
+           i18n:domain="plone"
+           i18n:translate="label_up_to_plone_setup">
+            Up to Site Setup
+        </a>
+
+        <form action="."
+              metal:define-macro="master"
+              tal:attributes="action request/URL;"
+              method="post"
+              class="edit-form enableUnloadProtection"
+              tal:define="errors view/errors">
+
+            <fieldset>
+                <legend i18n:translate="">Saferpay configuration</legend>
+                
+                <div class="field"
+                     tal:attributes="class python:'field'+(errors.has_key('account_id') and ' error' or '')">
+
+                    <label i18n:translate=""
+                           for="account_id">
+                        Account ID
+                    </label>
+
+                    <span class="fieldRequired"
+                          title="Required"
+                          i18n:domain="plone"
+                          i18n:attributes="title title_required;"
+                          i18n:translate="label_required">
+                        (Required)
+                    </span>
+
+                    <div class="formHelp"
+                         i18n:translate="">
+                        The saferpay account-number (e.g. 99867-94913159)
+                    </div>
+
+                    <div tal:condition="python:errors.has_key('accountid')"
+                         tal:content="errors/title|nothing">
+                        The Error
+                    </div>
+
+                    <div class="widget">
+                        <input id="account_id" name="account_id" value="99867-94913159" type="text"
+                               tal:attributes="value view/values/account_id|request/account_id"/>
+                    </div>
+                </div>
+                
+                <div class="field"
+                     tal:attributes="class python:'field'+(errors.has_key('test') and ' error' or '')">
+
+                    <label i18n:translate=""
+                           for="test">
+                        Test Account
+                    </label>
+
+                    <div tal:condition="python:errors.has_key('test')"
+                         tal:content="errors/title|nothing">
+                        The Error
+                    </div>
+
+                    <div class="widget"
+                         tal:define="value view/values/test|request/test">
+                        <input id="test" name="test:boolean" value="1" type="checkbox"
+                               tal:attributes="checked python: value and 'checked' or ''"/>
+                    </div>
+                </div>
+                
+                <div class="field"
+                     tal:attributes="class python:'field'+(errors.has_key('password') and ' error' or '')">
+
+                    <label i18n:translate=""
+                           for="password">
+                        Account Password
+                    </label>
+
+                    <div class="formHelp"
+                         i18n:translate="">
+                        The password for the account (only required for test accounts)
+                    </div>
+
+                    <div tal:condition="python:errors.has_key('password')"
+                         tal:content="errors/title|nothing">
+                        The Error
+                    </div>
+
+                    <div class="widget">
+                        <input id="password" name="password" value="" type="text"
+                               tal:attributes="value view/values/password|request/password"/>
+                    </div>
+                </div>
+                
+                <div class="field"
+                     tal:attributes="class python:'field'+(errors.has_key('bodycolor') and ' error' or '')">
+
+                    <label i18n:translate=""
+                           for="bodycolor">
+                        Bodycolor
+                    </label>
+
+                    <div class="formHelp"
+                         i18n:translate="">
+                        Backgroundcolor for the body of the saferpay VT
+                    </div>
+
+                    <div tal:condition="python:errors.has_key('bodycolor')"
+                         tal:content="errors/title|nothing">
+                        The Error
+                    </div>
+
+                    <div class="widget">
+                        <input id="bodycolor" name="bodycolor" value="" type="text"
+                               tal:attributes="value view/values/bodycolor|request/bodycolor"/>
+                    </div>
+                </div>
+                
+                <div class="field"
+                     tal:attributes="class python:'field'+(errors.has_key('headcolor') and ' error' or '')">
+
+                    <label i18n:translate=""
+                           for="headcolor">
+                        Headcolor
+                    </label>
+
+                    <div class="formHelp"
+                         i18n:translate="">
+                        Backgroundcolor for the header of the saferpay VT
+                    </div>
+
+                    <div tal:condition="python:errors.has_key('headcolor')"
+                         tal:content="errors/title|nothing">
+                        The Error
+                    </div>
+
+                    <div class="widget">
+                        <input id="headcolor" name="headcolor" value="" type="text"
+                               tal:attributes="value view/values/headcolor|request/headcolor"/>
+                    </div>
+                </div>
+                
+                <div class="field"
+                     tal:attributes="class python:'field'+(errors.has_key('headlinecolor') and ' error' or '')">
+
+                    <label i18n:translate=""
+                           for="headlinecolor">
+                        Headlinecolor
+                    </label>
+
+                    <div class="formHelp"
+                         i18n:translate="">
+                        Color for the line in the header of the saferpay VT
+                    </div>
+
+                    <div tal:condition="python:errors.has_key('headlinecolor')"
+                         tal:content="errors/title|nothing">
+                        The Error
+                    </div>
+
+                    <div class="widget">
+                        <input id="headlinecolor" name="headlinecolor" value="" type="text"
+                               tal:attributes="value view/values/headlinecolor|request/headlinecolor"/>
+                    </div>
+                </div>
+                
+                <div class="field"
+                     tal:attributes="class python:'field'+(errors.has_key('menucolor') and ' error' or '')">
+
+                    <label i18n:translate=""
+                           for="menucolor">
+                        Menucolor
+                    </label>
+
+                    <div class="formHelp"
+                         i18n:translate="">
+                        Backgroundcolor for the menu of the saferpay VT
+                    </div>
+
+                    <div tal:condition="python:errors.has_key('menucolor')"
+                         tal:content="errors/title|nothing">
+                        The Error
+                    </div>
+
+                    <div class="widget">
+                        <input id="menucolor" name="menucolor" value="" type="text"
+                               tal:attributes="value view/values/menucolor|request/menucolor"/>
+                    </div>
+                </div>
+                
+                <div class="field"
+                     tal:attributes="class python:'field'+(errors.has_key('bodyfontcolor') and ' error' or '')">
+
+                    <label i18n:translate=""
+                           for="bodyfontcolor">
+                        Bodyfontcolor
+                    </label>
+
+                    <div class="formHelp"
+                         i18n:translate="">
+                        Font-color in the body of the saferpay VT
+                    </div>
+
+                    <div tal:condition="python:errors.has_key('bodyfontcolor')"
+                         tal:content="errors/title|nothing">
+                        The Error
+                    </div>
+
+                    <div class="widget">
+                        <input id="bodyfontcolor" name="bodyfontcolor" value="" type="text"
+                               tal:attributes="value view/values/bodyfontcolor|request/bodyfontcolor"/>
+                    </div>
+                </div>
+                
+                <div class="field"
+                     tal:attributes="class python:'field'+(errors.has_key('headfontcolor') and ' error' or '')">
+
+                    <label i18n:translate=""
+                           for="menufontcolor">
+                        Headfontcolor
+                    </label>
+
+                    <div class="formHelp"
+                         i18n:translate="">
+                        Font-color in the header of the saferpay VT
+                    </div>
+
+                    <div tal:condition="python:errors.has_key('headfontcolor')"
+                         tal:content="errors/title|nothing">
+                        The Error
+                    </div>
+
+                    <div class="widget">
+                        <input id="headfontcolor" name="headfontcolor" value="" type="text"
+                               tal:attributes="value view/values/headfontcolor|request/headfontcolor"/>
+                    </div>
+                </div>
+                
+                <div class="field"
+                     tal:attributes="class python:'field'+(errors.has_key('menufontcolor') and ' error' or '')">
+
+                    <label i18n:translate=""
+                           for="menufontcolor">
+                        Menufontcolor
+                    </label>
+
+                    <div class="formHelp"
+                         i18n:translate="">
+                        Font-color in the menu of the saferpay VT
+                    </div>
+
+                    <div tal:condition="python:errors.has_key('menufontcolor')"
+                         tal:content="errors/title|nothing">
+                        The Error
+                    </div>
+
+                    <div class="widget">
+                        <input id="menufontcolor" name="menufontcolor" value="" type="text"
+                               tal:attributes="value view/values/menufontcolor|request/menufontcolor"/>
+                    </div>
+                </div>
+                
+                <div class="field"
+                     tal:attributes="class python:'field'+(errors.has_key('font') and ' error' or '')">
+
+                    <label i18n:translate=""
+                           for="font">
+                        Font
+                    </label>
+
+                    <div class="formHelp"
+                         i18n:translate="">
+                        The fontface used in the saferpay VT
+                    </div>
+
+                    <div tal:condition="python:errors.has_key('font')"
+                         tal:content="errors/title|nothing">
+                        The Error
+                    </div>
+
+                    <div class="widget">
+                        <input id="font" name="font" value="" type="text"
+                               tal:attributes="value view/values/font|request/font"/>
+                    </div>
+                </div>
+                
+            </fieldset>
+
+            <div id="actionsView" class="formControls">
+                <span class="actionButtons">
+                    <input name="saferpay_save" value="Save" class="context" type="submit"
+                           i18n:domain="plone"
+                           i18n:attributes="value"/>
+                </span>
+            </div>
+
+        </form>
+
+  </div>
+
+</body>
+</html>
+

@@ -1,0 +1,25 @@
+Changelog
+=========
+
+1.0b3 (2011-09-01)
+------------------
+
+* Added dutch translations 
+  (thanks to Albert Peschar)
+
+1.0b2 (2011-1-17)
+------------------
+* replace propertiestool.xml with setuphandlers. this fix a error
+  with deleted properties by reinstalling the product
+
+1.0b1 (2010-10-20)
+------------------
+
+* plone 4 compatibility
+  remove actionsicons because is no more supported in plone 4
+
+0.1a1
+-----
+
+* First public release
+

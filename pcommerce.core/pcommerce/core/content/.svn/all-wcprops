@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/collective/!svn/ver/229171/pcommerce.core/trunk/pcommerce/core/content
+END
+variation.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/content/variation.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/content/__init__.py
+END
+product.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/collective/!svn/ver/229171/pcommerce.core/trunk/pcommerce/core/content/product.py
+END
+price.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/collective/!svn/ver/122155/pcommerce.core/trunk/pcommerce/core/content/price.py
+END

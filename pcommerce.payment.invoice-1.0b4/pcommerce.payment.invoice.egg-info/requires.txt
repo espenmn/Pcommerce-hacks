@@ -1,0 +1,2 @@
+setuptools
+pcommerce.core>0.4

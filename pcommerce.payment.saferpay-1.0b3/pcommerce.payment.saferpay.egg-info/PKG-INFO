@@ -1,0 +1,43 @@
+Metadata-Version: 1.0
+Name: pcommerce.payment.saferpay
+Version: 1.0b3
+Summary: A SaferPay payment method for PCommerce
+Home-page: http://raptus.com
+Author: Raptus AG
+Author-email: dev@raptus.com
+License: GPL
+Description: Introduction
+        ============
+        
+        pcommerce.payment.saferpay provides payment over saferpay for PCommerce.
+        
+        
+        Changelog
+        =========
+        
+        1.0b3 (2011-09-01)
+        ------------------
+        
+        * Added dutch translations 
+          (thanks to Albert Peschar)
+        
+        1.0b2 (2011-1-17)
+        ------------------
+        * replace propertiestool.xml with setuphandlers. this fix a error
+          with deleted properties by reinstalling the product
+        
+        1.0b1 (2010-10-20)
+        ------------------
+        
+        * plone 4 compatibility
+          remove actionsicons because is no more supported in plone 4
+        
+        0.1a1
+        -----
+        
+        * First public release
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

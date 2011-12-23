@@ -1,0 +1,107 @@
+Changelog
+=========
+
+1.0b9 (2011-12-13)
+------------------
+* updated translations
+* added french translations
+* fixed bug in payment failed and canceled view where a ValueError was raised if order.processed_steps was empty
+* adjusted CSS for the checkout button of the cart view
+* rounding values (by default to 5 cents) is now configurable in the
+ pcommerce_properties (not in the configlet) [huub_bouma]
+* plone4.1 compatability fix (small) [huub_bouma]
+* translations now use locales folder, and is now plone4 compatible
+* removed a pdb statement. [huub_bouma]
+* some PEP8 fixes [huub_bouma]
+
+1.0b8 (2011-09-26)
+------------------
+
+* Improved order overview (adjusted total price to include all taxes and charges)
+* Added default_view property to Product and Variation type to prevent breaking of plone's new folder_full_view
+* Added spanish translations (Thanks to Manuel Gualda Caballero)
+
+1.0b7 (2011-09-01)
+------------------
+
+* Added dutch translations 
+  (thanks to Kees Hink and Albert Peschar)
+* Added order overview (`@@manage-orders`)
+  [khink]
+
+1.0b6 (2011-01-5)
+------------------
+
+* re-add PTS utility for plone 3 compatibility
+
+1.0b5 (2010-12-22)
+------------------
+
+* cleaned up templates (unified xml namespaces)
+* fixed css classes of step navigation in checkout
+
+1.0b4 (2010-12-20)
+------------------
+
+* bugfix in BaseComponent (only show available shipment methods by using the ShipmentRegistry)
+* added process method to the order registry
+* added new adapter which defines the components which have to be 
+  processed in order to make an order definite
+* added new zope3 events
+* cleaned up translations
+
+1.0b3 (2010-11-29)
+------------------
+* remove assignment in portlets.xml
+
+1.0b2 (2010-11-29)
+------------------
+* fix javascript getprice.js. 
+
+1.0b1 (2010-10-20)
+------------------
+
+plone 4 compatibility
+
+* remove PTS utility
+* fix javascripts under query 1.4.2
+* browser view need a index attribute instead the call method 
+* remove actionsicons because is no more supported in plone 4
+* fix access of user-order
+
+0.5a3
+-----
+
+* CSS and HTML Bugfix in buy viewlet
+
+0.5a2
+-----
+
+* Fixed payment and shipmentdata class and added migration method to fix existing orders
+* Fixed cartInfo macro
+
+0.5a1
+-----
+
+* Added pluggable shipment methods
+* Added pre and post tax charges
+* Added selection of available shipment methods per product
+* Rewrote the whole architecture (Not backward compatible)
+* First alpha release containing internal developments
+
+0.3 - Alpha release
+-------------------
+
+* Removed setupHandler which rebuilded the catalog and slowed down (re)install
+* Fixed version in metadata.xml
+
+0.2 - Alpha release
+-------------------
+
+* Removed profile dependency to Products.CurrencyUtility
+
+0.1 - Alpha release
+-------------------
+
+* Initial release
+
